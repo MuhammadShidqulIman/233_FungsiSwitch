@@ -11,6 +11,21 @@ void inputData()
     cin >> bilangan2;
 }
 
+
+int penjumlahan(int a, int b)
+{
+    return a + b;
+}
+
+
+
+
+
+
+
+
+
+
 int main()
 {
     std::cout << "Hello World!\n";
