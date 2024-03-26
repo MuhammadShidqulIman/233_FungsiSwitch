@@ -76,37 +76,7 @@ int main()
             cout << "Pilihan tidak ada" << endl;
             break;
         }
-
-
-    }
-       
-
-
-
-            
-            
-        
-        
-        
-        
-
-    
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-int main()
-{
-    std::cout << "Hello World!\n";
+    } while (pilihan != 5);
+    system("pause");
+    system("CLS");
 }
