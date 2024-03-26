@@ -27,7 +27,7 @@ int perkalian(int a, int b)
     return a * b;
 }
 
-int pembagian(int a, int b)
+float pembagian(int a, int b)
 {
     return a / b;
 }
@@ -49,8 +49,52 @@ int main()
         cout << "Masukan menu pilihan : ";
         cin >> pilihan;
 
+  
+        switch (pilihan)
+        {
+
+        case 1:
+            inputData();
+            cout << "Hasil penjumlahan = " << penjumlahan(bilangan1, bilangan2) << endl;
+            break;
+        case 2:
+            inputData();
+            cout << "Hasil pengurangan = " << pengurangan(bilangan1, bilangan2) << endl;
+            break;
+        case 3:
+            inputData();
+            cout << "Hasil perkalian = " << perkalian(bilangan1, bilangan2) << endl;
+            break;
+        case 4:
+            inputData();
+            cout << "Hasil pembagian = " << pembagian(bilangan1, bilangan2) << endl;
+            break;
+        case 5:
+            break;
+
+        default:
+            cout << "Pilihan tidak ada" << endl;
+            break;
+        }
+
+
     }
-}
+       
+
+
+
+            
+            
+        
+        
+        
+        
+
+    
+       
+
+
+
 
 
 
